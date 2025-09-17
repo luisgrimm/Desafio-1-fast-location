@@ -1,0 +1,40 @@
+name: fastlocation
+description: "FastLocation is a sleek Flutter app that effortlessly finds addresses by CEP and vice-versa, powered by MobX for smooth state management and Hive for smart local storage."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  url_launcher: ^6.0.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  dio: ^5.0.0
+  flutter_mobx: ^2.0.0
+  mobx: ^2.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.4
+  map_launcher: ^4.4.2
+  geocoding: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  mobx_codegen: ^2.6.1
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/dreamflow_icon.jpg
+  remove_alpha_ios: true
